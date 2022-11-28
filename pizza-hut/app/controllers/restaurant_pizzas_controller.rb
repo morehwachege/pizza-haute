@@ -4,12 +4,12 @@ rescue_from ActiveRecord::RecordInvalid, with: :rescue_record_invalid
 
   def index
     rest_pizza = RestaurantPizza.all 
-    render json: rest_pizza, except: [:created_at, :updated_at], status: :ok
+    render json: rest_pizza, status: :ok
   end
 
   def create
     rest_pizza = RestaurantPizza.create!(rest_pizza_params)
-    render json: rest_pizza, except: [:created_at, :updated_at], status: :created
+    render json: rest_pizza, status: :created
   end
 
 
