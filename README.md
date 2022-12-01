@@ -3,7 +3,7 @@
 
 #### _Pizza was never delivered quicker and tastier_
 
-Pizza Haute is an API for tracking pizza restaurants. I has a lot of provisions for handling large data with its extensive database schema which extends its functionality and scope.
+Pizza Haute is an API for tracking pizza restaurants. It has a lot of provisions for handling large data with its extensive database schema which extends its functionality and scope.
 
 
 ### Endpoints
